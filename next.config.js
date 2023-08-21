@@ -12,4 +12,4 @@ const nextConfig = {
   }
 }
 
-module.exports = { nextConfig, target: 'serverless' }
+module.exports = nextConfig
