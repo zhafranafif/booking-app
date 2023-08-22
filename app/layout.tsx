@@ -14,8 +14,8 @@ import getCurrentUser from './actions/getCurrentUser';
 import { getSession } from 'next-auth/react';
 
 export const metadata = {
-  title: 'Airbnb',
-  description: 'Airbnb Clone',
+  title: 'Bookhotel',
+  description: 'Bookhotel is your choice!',
 }
 
 const font = Nunito({ 
