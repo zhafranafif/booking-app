@@ -12,6 +12,7 @@ import './globals.css'
 import ClientOnly from './components/ClientOnly';
 import getCurrentUser from './actions/getCurrentUser';
 import { getSession } from 'next-auth/react';
+import Footer from './components/Footer';
 
 export const metadata = {
   title: 'Bookhotel',
@@ -42,6 +43,7 @@ export default async function RootLayout({
         <div className="pt-28">
           {children}
         </div>
+        <Footer/>
       </body>
     </html>
   )
